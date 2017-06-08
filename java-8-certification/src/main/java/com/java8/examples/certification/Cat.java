@@ -1,4 +1,4 @@
-package com.java8.examples.access_modifiers;
+package com.java8.examples.certification;
 
 /**
  * Created by miztli on 3/06/17.

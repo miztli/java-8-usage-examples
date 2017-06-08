@@ -1,4 +1,4 @@
-package com.java8.examples.access_modifiers;
+package com.java8.examples.certification;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 //import java.nio.file.*;
@@ -15,7 +15,7 @@ public class InputImports {
 
     public static void main(String[] args) {
 
-        Swan swan = new Swan();
+        StaticInitialization swan = new StaticInitialization();
         swan.numberOfEgg = 3;
 
         System.out.println("Number of eggs: " + swan.numberOfEgg);

@@ -1,4 +1,4 @@
-package com.java8.examples.data_types;
+package com.java8.examples.certification;
 
 /**
  * Created by miztli on 4/06/17.
@@ -33,10 +33,20 @@ public class Primitives {
     }
 
     public void baseNumbers(){
-        System.out.println(56); // 56
-        System.out.println(0b11); // 3
-        System.out.println(017); // 15
-        System.out.println(0x1F);
+        int base10number = 56; //56
+        System.out.println("Base 10 number: " +base10number); // 56
+        int binaryNumber = 0b11; //3
+        System.out.println("Binary number: " + binaryNumber); // 3
+        int octalNumber = 017; //15
+        System.out.println("Octal number: " + octalNumber); // 15
+        int hexNumber = 0x1F; //31
+        System.out.println("Hex number: " + hexNumber);
+    }
+
+    int defaultInt;
+    public void defaultNumbers(){
+        //int defaultInt; //Compile error variable not initialized
+        System.out.println("Default int value: " + defaultInt);
     }
 
     public void underscoreNumbers(){
@@ -53,5 +63,6 @@ public class Primitives {
             p.byteExamples();
             p.numberExamples();
             p.baseNumbers();
+            p.defaultNumbers();
     }
 }

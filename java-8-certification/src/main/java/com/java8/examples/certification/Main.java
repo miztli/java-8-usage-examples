@@ -1,7 +1,6 @@
-package com.java8.examples;
+package com.java8.examples.certification;
 
-import com.java8.examples.access_modifiers.Cat;
-import com.java8.examples.access_modifiers.Swan;
+import com.java8.examples.certification.Cat;
 
 /**
  * Created by miztli on 3/06/17.
