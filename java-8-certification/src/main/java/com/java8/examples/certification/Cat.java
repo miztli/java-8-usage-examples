@@ -5,6 +5,8 @@ package com.java8.examples.certification;
  */
 public class Cat {
     String name;
+    Paw paw;
+
 
     public Cat(String name) {
         this.name = name;
@@ -18,6 +20,14 @@ public class Cat {
         this.name = name;
     }
 
+    public Paw getPaw() {
+        return paw;
+    }
+
+    public void setPaw(Paw paw) {
+        this.paw = paw;
+    }
+
     public static class Dog{
         private String name;
 
@@ -29,6 +39,30 @@ public class Cat {
         public String getName(){
             return this.name;
         }
+    }
+
+    public static void main(String[] args) {
+        Paw paw = new Paw();
+            paw.setNails(5);
+
+        Cat cat = new Cat("chacho");
+            cat.setPaw(paw);
+
+        System.out.printf("Nails in the paw of " + cat.getName() + ": " +cat.getPaw().getNails());
+    }
+}
+
+class Paw{
+    private int nails;
+
+    public Paw(){}
+
+    public void setNails(int nails){
+        this.nails = nails;
+    }
+
+    public int getNails() {
+        return nails;
     }
 }
 
