@@ -9,6 +9,24 @@ public class GarbageCollection {
         Finilize f2 = new Finilize(2);
         f1 = f2;
         f1 = null;
+
+        String one = "Hola";
+        String two = "mundo";
+        String three = "hoy";
+
+        one = two;
+        three = two;
+
+        System.out.println("One: " + one);
+        System.out.println("Two: " + two);
+        System.out.println("Three: " + three);
+
+        two = "cambié";
+
+        System.out.println("One: " + one);
+        System.out.println("Two: " + two);
+        System.out.println("Three: " + three);
+
         System.gc();
     }
 }
