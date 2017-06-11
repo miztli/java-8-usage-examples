@@ -27,6 +27,21 @@ public class GarbageCollection {
         System.out.println("Two: " + two);
         System.out.println("Three: " + three);
 
+        int numberOne = 1;
+        int numberTwo = 2;
+        int numberThree = numberTwo;
+
+        System.out.println("Number one: " + numberOne);
+        System.out.println("Number two: " + numberTwo);
+        System.out.println("Number three: " + numberThree);
+
+        numberOne = numberTwo;
+        numberTwo = 4;
+
+        System.out.println("Number one: " + numberOne);
+        System.out.println("Number two changed: " + numberTwo);
+        System.out.println("Number three: " + numberThree);
+
         System.gc();
     }
 }

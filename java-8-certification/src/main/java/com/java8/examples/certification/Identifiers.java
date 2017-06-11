@@ -10,6 +10,7 @@ public class Identifiers {
     private String $OK2Identifier;
     private String _alsoOK1d3ntifi3r;
     private String __SStillOkbutKnotsonice$;
+    private String Public;
 
     //Ilegal identifiers
 //    private String 3DPointClass; // identifiers cannot begin with a number
