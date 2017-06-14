@@ -5,8 +5,8 @@ package com.java8.examples.certification;
  */
 public class GarbageCollection {
     public static void main(String[] args) throws InterruptedException {
-        Finilize f1 = new Finilize(1);
-        Finilize f2 = new Finilize(2);
+        Finalize f1 = new Finalize(1);
+        Finalize f2 = new Finalize(2);
         f1 = f2;
         f1 = null;
 
@@ -45,10 +45,10 @@ public class GarbageCollection {
         System.gc();
     }
 }
-class Finilize{
+class Finalize {
     int someVal;
 
-    public Finilize(int someVal) {
+    public Finalize(int someVal) {
         super();
         this.someVal=someVal;
         System.out.println("creating finalizing instance");

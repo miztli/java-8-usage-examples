@@ -40,7 +40,16 @@ public class Primitives {
         int octalNumber = 017; //15
         System.out.println("Octal number: " + octalNumber); // 15
         int hexNumber = 0x1F; //31
-        System.out.println("Hex number: " + hexNumber);
+        System.out.println("Hex number: " + hexNumber); //31
+//        int amount = 9L; //DOES NOT COMPILE
+        int amountBin = 0b101;
+        System.out.println("Binary number: " + amountBin); //5
+        int amountHex = 0xE;
+        System.out.println("Hex number: " + amountHex); //14
+        double amountDoubHex = 0xE;
+        System.out.println("Double number: " + amountDoubHex); //14.0
+//        double amountDoubHex2 = 1_2_.0_0; //DOES NOT COMPILE
+//        int amount = 1_2_; //DOES NOT COMPILE
     }
 
     int defaultInt;

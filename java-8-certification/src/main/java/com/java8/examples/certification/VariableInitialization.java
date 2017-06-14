@@ -8,7 +8,9 @@ public class VariableInitialization {
 
     public static void localVariables(){
         int a;
+        String b;
 //        System.out.println("Value of a: " + a); //Invalid, local variables must be initialized
+//        System.out.println("Value of a: " + b); //Invalid, local variables must be initialized
         a = 1;
         System.out.println("Value of a: " + a);
     }
