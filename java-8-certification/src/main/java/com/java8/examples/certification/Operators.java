@@ -41,9 +41,33 @@ public class Operators {
         System.out.println("10/3= " + j);
     }
 
+    public static void logicalOperators(){
+//        int x = !5; // DOES NOT COMPILE
+//        boolean y = -true; // DOES NOT COMPILE
+//        boolean z = !0; // DOES NOT COMPILE
+        boolean d = !true;
+        System.out.println("d: " + d);
+    }
+
+    public static void incrementDecrementOperators(){
+        System.out.println("Increment and decrement operators");
+        int counter = 0;
+        System.out.println(counter); // Outputs 0
+        System.out.println(++counter); // Outputs 1
+        System.out.println(counter); // Outputs 1
+        System.out.println(counter++); // Outputs 1
+        System.out.println(counter); // Outputs 2
+        System.out.println(counter--); // Outputs 2
+        System.out.println(counter); // Outputs 1
+        System.out.println(--counter); // Outputs 0
+        System.out.println(counter); // Outputs 0
+    }
+
     public static void main(String[] args) {
         Operators.order();
         Operators.module();
         Operators.promotion();
+        Operators.logicalOperators();
+        Operators.incrementDecrementOperators();
     }
 }
