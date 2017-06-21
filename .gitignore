@@ -1,3 +1,4 @@
 #IDE
-*.idea
+.idea/
 *.iml
+java-8-certification/target
