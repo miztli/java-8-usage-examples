@@ -1,4 +1,4 @@
-package com.booking.exam;
+package com.java8.examples;
 
 import java.util.*;
 
