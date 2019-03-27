@@ -53,8 +53,7 @@
   </build>
 
   <modules>
-    <module>java-8-collections</module>
-    <module>java-8-executors</module>
+    <module>java-8-features</module>
     <module>java-8-certification</module>
     <module>booking.com</module>
   </modules>

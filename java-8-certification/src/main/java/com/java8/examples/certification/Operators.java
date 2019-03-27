@@ -41,8 +41,7 @@ public class Operators {
         System.out.println("10/3= " + j);
     }
 
-<<<<<<< HEAD
-    public static void logicalOperators(){
+    public static void logicalOperators_1(){
 //        int x = !5; // DOES NOT COMPILE
 //        boolean y = -true; // DOES NOT COMPILE
 //        boolean z = !0; // DOES NOT COMPILE
@@ -52,14 +51,11 @@ public class Operators {
 
     public static void incrementDecrementOperators(){
         System.out.println("Increment and decrement operators");
-=======
-    public static void IncrementAndDecrement_1(){
->>>>>>> 27e608338cf238c07ada84216b6efc3cd66e00f2
+
         int counter = 0;
         System.out.println(counter); // Outputs 0
         System.out.println(++counter); // Outputs 1
         System.out.println(counter); // Outputs 1
-<<<<<<< HEAD
         System.out.println(counter++); // Outputs 1
         System.out.println(counter); // Outputs 2
         System.out.println(counter--); // Outputs 2
@@ -67,10 +63,7 @@ public class Operators {
         System.out.println(--counter); // Outputs 0
         System.out.println(counter); // Outputs 0
     }
-=======
-        System.out.println(counter--); // Outputs 1
-        System.out.println(counter); // Outputs 0
-    }
+
     public static void IncrementAndDecrement_2(){
         int x=3;
         int y = ++x * 5 / x-- + --x;
@@ -132,21 +125,16 @@ public class Operators {
         Cat b = new Cat("chacho");
         System.out.println("a==b: " + (a==b));
     }
->>>>>>> 27e608338cf238c07ada84216b6efc3cd66e00f2
 
     public static void main(String[] args) {
         Operators.order();
         Operators.module();
         Operators.promotion();
-<<<<<<< HEAD
         Operators.logicalOperators();
         Operators.incrementDecrementOperators();
-=======
-        Operators.IncrementAndDecrement_1();
         Operators.IncrementAndDecrement_2();
         Operators.compoundAssignmentOperators();
         Operators.logicalOperators();
         Operators.equalityOperators();
->>>>>>> 27e608338cf238c07ada84216b6efc3cd66e00f2
     }
 }
